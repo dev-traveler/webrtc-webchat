@@ -1,13 +1,14 @@
 {
   "name": "webrtc-webchat",
   "version": "1.0.0",
-  "description": "webchat using webRTC",
+  "description": "Webchat using WebRTC",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon --exec babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "dev_traveler",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.21.0",
